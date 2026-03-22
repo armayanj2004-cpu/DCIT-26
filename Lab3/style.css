@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #1f2937;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 112px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  background-color: #1f2937;
+  padding: 64px 112px;
+}
+
+.hero-text {
+  max-width: 480px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.hero-text p {
+  color: #e5e7eb;
+  font-size: 1rem;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+
+.hero-text button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #2563eb;
+}
+
+.hero-image img {
+  border-radius: 6px;
+}
+
+.info {
+  padding: 64px 112px;
+  background-color: white;
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  max-width: 160px;
+}
+
+.card img {
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #1f2937;
+  text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 64px 224px;
+}
+
+blockquote {
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.cta {
+  background-color: #1f2937;
+  padding: 48px 112px;
+}
+
+.cta-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 32px 64px;
+  border-radius: 10px;
+}
+
+.cta-text h3 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.cta-text p {
+  color: #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.cta button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 28px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.cta button:hover {
+  background-color: white;
+  color: #3882f6;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
